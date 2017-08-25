@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"
+    android:id="@+id/linearLayout"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input a search request" />
+
+    <EditText
+        android:id="@+id/edit_search_tag"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_search"
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/fragment_place_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" />
+</LinearLayout>
