@@ -13,6 +13,7 @@ import android.widget.EditText;
 import com.squareup.otto.Bus;
 import retrofit.RestAdapter;
 
+// Main Class
 public class TwitterDemoRKP extends AppCompatActivity {
     private static final String TAG = TwitterDemoRKP.class.getName();
 
